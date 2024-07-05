@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(./photo/iStock-1454939223.jpg);
+  object-fit: cover;
+}
+
+main {
+  padding: 40px;
+  width: 100%;
+  min-width: 300px;
+  margin: 10px;
+  max-width: 1000px;
+  box-shadow: 0 0 5px green;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.form-head {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.form-p {
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.cont-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-lable {
+  display: flex;
+  align-self: stretch;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.label-caption {
+  flex: 1 1 120px;
+  align-self: center;
+}
+
+.form-input {
+  flex: 300 1 240px;
+  padding: 10px;
+}
+
+.submit-btm {
+  padding: 10px;
+  align-self: center;
+  background-color: inherit;
+  color: inherit;
+  box-shadow: 0 0 5px white;
+}
+
+.form-input:valid {
+  border: 1px solid green;
+  background-color: aquamarine;
+}
+.form-input:invalid {
+  border: 1px solid red;
+  background-color: lightpink;
+}
+/* .valid {
+  border: 1px solid green;
+  background-color: aquamarine;
+}
+.invalid {
+  border: 1px solid red;
+  background-color: lightpink;
+} */
